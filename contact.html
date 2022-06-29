@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<!--
+	W3C Validation :
+	Document checking completed. No errors or warnings to show.
+	Used the HTML parser.
+	Total execution time 14 milliseconds.
+-->
+<html lang="nl-NL">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="De voorbeeld pagina voor les 15 van de cursus: NHA Front-end Developer.">
+	<meta name="keywords" content="NHA,Front-end,Developer,Les15" >
+	<title>NHA Les 15</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/nha.css">
+
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+	<link rel="manifest" href="./favicon/site.webmanifest">
+
+
+</head>
+<body>
+<header>
+	<div class="toplogo">
+		<img src="./images/nha.png" alt="" />
+	</div>
+	<nav class="topmenu">
+		<a href="index.html" target="_self">Home</a>
+		<a href="./mijncv.html" target="_self">Mijn CV</a>
+		<a href="./contact.html" target="_self">Contact</a>
+	</nav>
+</header>
+<main>
+	<section class="main-content">
+		<div id="firstitem" class="content">
+			<header><h1>Contact</h1></header>
+			<form id="contact" name="contact" action="https://formspree.io/f/xnqwbzqn" method="POST" enctype="multipart/form-data" target="_self">
+	<table class="contact-table">
+		<thead>
+			<tr><th colspan="2"></th></tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="row-header" colspan="2">Persoonlijke gegevens:</td>
+			</tr>
+			<tr>
+				<td>Voornaam:</td>
+				<td><input type="text" class="input-field" name="voornaam" required /></td>
+			</tr>
+			<tr>
+				<td>Achternaam:</td>
+				<td><input type="text" class="input-field" name="achternaam" required /></td>
+			</tr>
+			<tr>
+				<td>Uw email:</td>
+				<td><input type="email" class="input-field" name="email" required /></td>
+			</tr>
+			<tr>
+				<td>Uw bericht:</td>
+				<td><textarea rows="6" cols="30" class="input-field" name="message" placeholder="Vul hier uw bericht in." required></textarea></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<button type="submit" name="verzendknop">Verzenden</button>
+				</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="2"><i>Uw gegevens worden met de grooste zorg in behandeling genomen.</i></td>
+			</tr>
+		</tfoot>
+	</table>
+	</form>
+		</div>
+	</section>
+</main>
+<!-- Javascript inladen, scripts altijd onderaan de pagina als laatste inladen -->
+<script src="assets/js/nha.js"></script>
+
+<footer>
+	<div class="footer-content">
+		<span class="copyright-notice">&copy; 2022 - NHA Cursus Front-End Developer - Les 15</span>
+	</div>
+</footer>
+</body>
+</html>
